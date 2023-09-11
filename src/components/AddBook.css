@@ -1,67 +1,69 @@
-.add-book-container {
-    max-width: 500px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    position: relative; 
-  }
+.edit-book-container {
+  max-width: 500px;
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box; 
+}
 
-  .form-group {
-    margin-bottom: 15px;
-  }
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center; 
+}
 
-  .label {
-    font-weight: bold;
-  }
+.form-group {
+  margin-bottom: 20px;
+}
 
-  .input-field,
-  .textarea-field {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-  }
+.label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
 
-  .add-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-  }
+.input-field,
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
 
-  .add-button:hover {
-    background-color: #0056b3;
-  }
+.textarea-field {
+  resize: vertical;
+  min-height: 100px;
+}
 
-  .cancel-link {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    text-decoration: none;
-    color: #007bff;
-    font-size: 16px;
-  }
+.update-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto; 
+}
 
-  .cancel-link:hover {
-    text-decoration: underline;
-    color: #0056b3;
-  }
+.update-button:hover {
+  background-color: #0056b3;
+}
 
-  
-  .add-book-container::before {
-    content: "";
-    height: 50px; 
-    display: block;
-  }
+.cancel-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
 
-  .add-book-container::after {
-    content: "";
-    height: 50px; 
-    display: block;
-  }
+.cancel-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

@@ -2,7 +2,7 @@ import React, { useState ,useEffect} from "react";
 import axios from "axios";
 import { API_URL } from "../Api";
 import { Link, useNavigate ,useParams} from "react-router-dom";
-import "./AddBook.css"; // Import the CSS file
+import "./AddBook.css"; 
 
 function EditBook() {
   const { id } = useParams();
@@ -14,7 +14,7 @@ function EditBook() {
     genres: "",
   });
 
-  const navigate = useNavigate(); // Use useNavigate for navigation
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     axios
